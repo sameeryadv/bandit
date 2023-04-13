@@ -29,7 +29,6 @@ Password for next level is `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`.
 We will login to `bandit3`. The password for the next level is stored in a hidden file in the inhere directory.
 ```
 $ ls
-    inhere
 $cd inhere
 $cat .hidden
 ```
@@ -38,9 +37,10 @@ Password for next level is `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`.
 ## Level 3 -> 4
 We will login to `bandit4`. The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the `reset` command.
 ```
-**$ cd inhere/**
-**$ ls**    -file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
-**$ file ./-* **
+$ cd inhere/
+$ ls
+    -file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
+$ file ./-*
     ./-file00: data
     ./-file01: data
     ./-file02: data
@@ -51,6 +51,6 @@ We will login to `bandit4`. The password for the next level is stored in the onl
     ./-file07: ASCII text
     ./-file08: data
     ./-file09: data
-**$ cat ./-file07**
+$ cat ./-file07
 ```
 Password for next level is `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`.
