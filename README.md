@@ -20,3 +20,7 @@ Password for next level is `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`.
 
 ## Level 2
 We will login to `bandit2` using above password. The password for the next level is stored in a file called *spaces in this filename* located in the home directory.
+```
+$ cat spaces\ in\ this\ filename
+```
+Password for next level is `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`
