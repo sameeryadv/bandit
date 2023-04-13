@@ -159,4 +159,5 @@ The password for the next level is stored in the file *data.txt*, which is a hex
 ```
 $ ssh bandit11@bandit.labs.overthewire.org -p 2220
 
+
 ```
