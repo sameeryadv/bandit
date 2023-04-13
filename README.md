@@ -40,6 +40,7 @@ We will login to `bandit4`. The password for the next level is stored in the onl
 $ cd inhere/
 $ ls
     -file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
+    
 $ file ./-*
     ./-file00: data
     ./-file01: data
@@ -51,6 +52,7 @@ $ file ./-*
     ./-file07: ASCII text
     ./-file08: data
     ./-file09: data
+
 $ cat ./-file07
 ```
 Password for next level is `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`.
